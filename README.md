@@ -15,4 +15,4 @@ El archivo `index.html` debe quedar en la raíz del repositorio.
 
 ## Nota
 
-La invitación usa Google Fonts para la tipografía de los padrinos cuando hay conexión a Internet. El resto de los recursos principales está incluido en el repositorio.
+La tipografía de los padrinos está incluida localmente en el repositorio, por lo que la invitación no depende de Google Fonts para ese texto.

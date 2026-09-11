@@ -1,4 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap");
+@font-face {
+  font-family: 'Cormorant Garamond Local';
+  src: url('assets/fonts/CormorantGaramond-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#070913;color:#fff;font-family:Georgia,'Times New Roman',serif}.page{position:relative;width:100%;aspect-ratio:2/3;overflow:hidden}.page>img{display:block;width:100%;height:100%;object-fit:fill}.hotspot{position:absolute;border:0;background:transparent;cursor:pointer;z-index:5}.hs-cover{left:26%;right:26%;bottom:7%;height:8%}.hs-invite{left:26%;right:26%;bottom:6%;height:8%}.hs-map{left:27%;right:27%;top:69.5%;height:7.5%}.hs-next{left:25%;right:25%;bottom:1%;height:5%}.hs-yes{left:34%;right:18%;top:51.5%;height:7.2%}.hs-no{left:34%;right:18%;top:59.5%;height:7.2%}.hs-restart{left:30%;right:30%;bottom:8%;height:8%}.countdown .live-count{position:absolute;left:12.5%;right:12.5%;top:67.2%;height:4.5%;display:grid;grid-template-columns:repeat(4,1fr);align-items:center;text-align:center;z-index:4;pointer-events:none}.live-count strong{display:flex;align-items:center;justify-content:center;height:100%;font-size:clamp(22px,6.5vw,49px);font-weight:400;line-height:1;color:#f5d58a;text-shadow:none}.photos .qr-area{position:absolute;left:12%;right:12%;top:79.5%;height:16%;display:grid;grid-template-columns:30% 1fr;align-items:center;column-gap:8%;z-index:4}.qr-placeholder{width:100%;aspect-ratio:1;background:#fff;padding:4%;box-shadow:0 0 0 2px rgba(238,197,104,.8)}.qr-placeholder img{display:block;width:100%;height:100%;object-fit:contain}.qr-copy{width:100%;text-align:left}.qr-copy p{margin:0 0 12px;font-size:clamp(11px,3vw,18px);line-height:1.3;color:#f4e1b2;text-shadow:0 1px 4px #000}.photo-btn{display:inline-block;padding:9px 14px;border:1px solid #d9b66a;border-radius:20px;color:#f7e5b5;text-decoration:none;font-size:clamp(9px,2.3vw,15px);letter-spacing:.06em;background:rgba(5,8,18,.55)}.music{position:fixed;right:14px;bottom:14px;width:42px;height:42px;border-radius:50%;border:1px solid #d9b66a;background:rgba(5,8,18,.75);color:#f6d994;font-size:20px;z-index:20;display:flex;align-items:center;justify-content:center;line-height:1;padding:0;text-align:center}/* V14: shared responsive padrinos block and soft continuation of the existing blue shading. */
 #invitacion::after{
   content:"";
@@ -62,7 +69,7 @@
   left:27%; right:27%; top:67.1%; z-index:4; margin:0;
   text-align:center;
   color:#f1dfb1;
-  font-family:'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  font-family:'Cormorant Garamond Local', Georgia, 'Times New Roman', serif;
   font-size:clamp(11px,2.45vw,15px);
   font-weight:500;
   line-height:1.18;
