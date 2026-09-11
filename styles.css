@@ -6,35 +6,7 @@
   font-display: swap;
 }
 
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#070913;color:#fff;font-family:Georgia,'Times New Roman',serif}.page{position:relative;width:100%;aspect-ratio:2/3;overflow:hidden}.page>img{display:block;width:100%;height:100%;object-fit:fill}.hotspot{position:absolute;border:0;background:transparent;cursor:pointer;z-index:5}.hs-cover{left:26%;right:26%;bottom:7%;height:8%}.hs-invite{left:26%;right:26%;bottom:6%;height:8%}.hs-map{left:27%;right:27%;top:69.5%;height:7.5%}.hs-next{left:25%;right:25%;bottom:1%;height:5%}.hs-yes{left:34%;right:18%;top:51.5%;height:7.2%}.hs-no{left:34%;right:18%;top:59.5%;height:7.2%}.hs-restart{left:30%;right:30%;bottom:8%;height:8%}.countdown .live-count{position:absolute;left:12.5%;right:12.5%;top:67.2%;height:4.5%;display:grid;grid-template-columns:repeat(4,1fr);align-items:center;text-align:center;z-index:4;pointer-events:none}.live-count strong{display:flex;align-items:center;justify-content:center;height:100%;font-size:clamp(22px,6.5vw,49px);font-weight:400;line-height:1;color:#f5d58a;text-shadow:none}.photos .qr-area{position:absolute;left:12%;right:12%;top:79.5%;height:16%;display:grid;grid-template-columns:30% 1fr;align-items:center;column-gap:8%;z-index:4}.qr-placeholder{width:100%;aspect-ratio:1;background:#fff;padding:4%;box-shadow:0 0 0 2px rgba(238,197,104,.8)}.qr-placeholder img{display:block;width:100%;height:100%;object-fit:contain}.qr-copy{width:100%;text-align:left}.qr-copy p{margin:0 0 12px;font-size:clamp(11px,3vw,18px);line-height:1.3;color:#f4e1b2;text-shadow:0 1px 4px #000}.photo-btn{display:inline-block;padding:9px 14px;border:1px solid #d9b66a;border-radius:20px;color:#f7e5b5;text-decoration:none;font-size:clamp(9px,2.3vw,15px);letter-spacing:.06em;background:rgba(5,8,18,.55)}.music{position:fixed;right:14px;bottom:14px;width:42px;height:42px;border-radius:50%;border:1px solid #d9b66a;background:rgba(5,8,18,.75);color:#f6d994;font-size:20px;z-index:20;display:flex;align-items:center;justify-content:center;line-height:1;padding:0;text-align:center}/* V14: shared responsive padrinos block and soft continuation of the existing blue shading. */
-#invitacion::after{
-  content:"";
-  position:absolute;
-  left:12%; right:12%; top:58%; bottom:7%;
-  z-index:2; pointer-events:none;
-  background:linear-gradient(to bottom,
-    rgba(3,14,31,0) 0%,
-    rgba(3,14,31,.18) 18%,
-    rgba(3,14,31,.46) 42%,
-    rgba(3,14,31,.58) 66%,
-    rgba(3,14,31,.18) 90%,
-    rgba(3,14,31,0) 100%);
-  filter:blur(5px);
-}
-#invitacion .padrinos{
-  position:absolute;
-  left:30%; right:30%; top:67.4%;
-  z-index:4; margin:0;
-  text-align:center;
-  color:#f4e1b2;
-  font-family:Georgia,'Times New Roman',serif;
-  font-size:clamp(10px,2.6vw,16px);
-  line-height:1.22;
-  letter-spacing:.01em;
-  text-shadow:0 1px 4px #000;
-  pointer-events:none;
-}
-@media(min-width:700px){body{display:flex;justify-content:center}.page{width:500px}.music{right:calc(50% - 235px)}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#070913;color:#fff;font-family:Georgia,'Times New Roman',serif}.page{position:relative;width:100%;aspect-ratio:2/3;overflow:hidden}.page>img{display:block;width:100%;height:100%;object-fit:fill}.hotspot{position:absolute;border:0;background:transparent;cursor:pointer;z-index:5}.hs-cover{left:26%;right:26%;bottom:7%;height:8%}.hs-invite{left:26%;right:26%;bottom:6%;height:8%}.hs-map{left:27%;right:27%;top:69.5%;height:7.5%}.hs-next{left:25%;right:25%;bottom:1%;height:5%}.hs-yes{left:34%;right:18%;top:51.5%;height:7.2%}.hs-no{left:34%;right:18%;top:59.5%;height:7.2%}.hs-restart{left:30%;right:30%;bottom:8%;height:8%}.countdown .live-count{position:absolute;left:12.5%;right:12.5%;top:67.2%;height:4.5%;display:grid;grid-template-columns:repeat(4,1fr);align-items:center;text-align:center;z-index:4;pointer-events:none}.live-count strong{display:flex;align-items:center;justify-content:center;height:100%;font-size:clamp(22px,6.5vw,49px);font-weight:400;line-height:1;color:#f5d58a;text-shadow:none}.photos .qr-area{position:absolute;left:12%;right:12%;top:79.5%;height:16%;display:grid;grid-template-columns:30% 1fr;align-items:center;column-gap:8%;z-index:4}.qr-placeholder{width:100%;aspect-ratio:1;background:#fff;padding:4%;box-shadow:0 0 0 2px rgba(238,197,104,.8)}.qr-placeholder img{display:block;width:100%;height:100%;object-fit:contain}.qr-copy{width:100%;text-align:left}.qr-copy p{margin:0 0 12px;font-size:clamp(11px,3vw,18px);line-height:1.3;color:#f4e1b2;text-shadow:0 1px 4px #000}.photo-btn{display:inline-block;padding:9px 14px;border:1px solid #d9b66a;border-radius:20px;color:#f7e5b5;text-decoration:none;font-size:clamp(9px,2.3vw,15px);letter-spacing:.06em;background:rgba(5,8,18,.55)}.music{position:fixed;right:14px;bottom:14px;width:42px;height:42px;border-radius:50%;border:1px solid #d9b66a;background:rgba(5,8,18,.75);color:#f6d994;font-size:20px;z-index:20;display:flex;align-items:center;justify-content:center;line-height:1;padding:0;text-align:center}@media(min-width:700px){body{display:flex;justify-content:center}.page{width:500px}.music{right:calc(50% - 235px)}}
 
 /* V9: mobile full-screen section presentation only */
 @media (max-width:699px){
@@ -63,40 +35,67 @@
 @media(min-width:700px){.music{top:14px;bottom:auto;}}
 
 
-/* V18 FINAL: padrinos integrated into the existing blue center without darkening the section. */
-#invitacion::after{content:none;}
-#invitacion .padrinos{
-  left:27%; right:27%; top:67.1%; z-index:4; margin:0;
-  text-align:center;
-  color:#f1dfb1;
-  font-family:'Cormorant Garamond Local', Georgia, 'Times New Roman', serif;
-  font-size:clamp(11px,2.45vw,15px);
-  font-weight:500;
-  line-height:1.18;
-  letter-spacing:.015em;
-  text-shadow:0 1px 3px rgba(0,0,0,.55);
-  pointer-events:none;
-  isolation:isolate;
-}
-/* Local, horizontal blue haze only behind the padrinos text. No box and no full-section overlay. */
-#invitacion .padrinos::before{
-  content:"";
+
+/* FINAL V19: padrinos are baked into the invitation artwork; no HTML overlay. */
+
+/* FINAL V19: countdown numbers stay anchored to the artwork on every viewport. */
+.countdown { position:relative; }
+.countdown > img {
   position:absolute;
-  left:-45%; right:-45%; top:-95%; bottom:-95%;
-  z-index:-1; pointer-events:none;
-  background:radial-gradient(ellipse 52% 42% at 50% 50%,
-    rgba(5,20,43,.52) 0%,
-    rgba(5,20,43,.34) 42%,
-    rgba(5,20,43,.14) 66%,
-    rgba(5,20,43,0) 100%);
-  filter:blur(7px);
+  inset:0;
+  width:100%;
+  height:100%;
+  max-width:none;
+  max-height:none;
+  display:block;
+  object-fit:fill;
 }
-@media(min-width:700px){
-  .countdown .live-count{top:65.9%;height:4.8%;}
-  .live-count strong{font-size:29px;}
-  #invitacion .padrinos{left:27%;right:27%;top:67.1%;font-size:13px;line-height:1.18;letter-spacing:.015em;}
+.countdown .live-count{
+  position:absolute;
+  left:12.5%;
+  right:12.5%;
+  top:65.9%;
+  height:4.8%;
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  align-items:center;
+  text-align:center;
+  z-index:4;
+  pointer-events:none;
+}
+.countdown .live-count strong{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100%;
+  margin:0;
+  padding:0;
+  font-size:29px;
+  font-weight:400;
+  line-height:1;
+  color:#f5d58a;
+  text-shadow:none;
+  font-family:Georgia,'Times New Roman',serif;
 }
 @media(max-width:699px){
-  #days{transform:translateX(-4.6%);}
+  .countdown > img{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    object-fit:fill;
+    transform:scale(1.06);
+    transform-origin:center center;
+  }
+  .countdown .live-count{
+    left:12.5%;
+    right:12.5%;
+    top:67.2%;
+    height:4.5%;
+  }
+  .countdown .live-count strong{
+    font-size:clamp(22px,6.5vw,49px);
+  }
+  #days{transform:translateX(-6%);}
   #seconds{transform:translateX(2%);}
 }
